@@ -15,7 +15,7 @@ let getQuote = async () => {
   } catch (error) {
     console.error("Error fetching quote:", error);
     quote.innerText = "An error occurred. Please try again later.";
-    //author.innerText = "";
+    //author.innerText = ""
   }
 };
 
